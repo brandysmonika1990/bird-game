@@ -1,0 +1,73 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #333333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#wrap {
+    position: relative;
+    width: 90%;
+    height: 350px;
+    background-image: url(../img/tlo.png);
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#bird {
+    background-image: url(../img/bird.png);
+    position: absolute;
+    height: 53px;
+    width: 63px;
+    top: 20%;
+    left: 15%;
+}
+
+.place {
+    position: absolute;
+    height: 130px;
+    width: 50px;
+    background-color: #282828;
+    right: 15px;
+}
+
+#place1 {
+    top: 0;
+}
+
+#place2 {
+    bottom: 0;
+}
+
+.score {
+    text-align: center;
+    font-size: 35px;
+    color: #bde5b9;
+}
+
+.rules {
+    font-size: 20px;
+    color: #84a081;
+}
+
+#restart {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #bde5b9;
+    border: 1px solid #bde5b9;
+    color: #333333;
+    cursor: pointer;
+    display: none;
+    font-size: 30px;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#restart:hover {
+    background-color: #333333;
+    border: 1px solid #333333;
+    color: #bde5b9;
+}
